@@ -1,0 +1,32 @@
+[package]
+name = "araseq"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+authors = ["Gaurav Sablok"]
+description = "araseq for model genomics"
+homepage = "https://github.com/rustcodepro/arapy"
+repository = "https://github.com/rustcodepro/arapy"
+
+[dependencies]
+clap = { version = "=4.3.24", features = ["derive"] }
+csv = "=1.2.2"
+reqwest = { version = "=0.11.27", features = ["blocking"] }
+scraper = "=0.17.1"
+rayon = "=1.7.0"
+regex = "=1.9.6"
+serde = { version = "=1.0.188", features = ["derive"] }
+serde_json = "=1.0.107"
+figlet-rs = "0.1.5"
+axum = "=0.6.20"
+tokio = { version = "=1.32.0", features = ["rt-multi-thread", "net", "macros"] }
+url = "=2.4.1"
+idna = "=0.4.0"
+encoding_rs = "=0.8.32"
+icu_normalizer = "=1.5.0"
+h2 = "=0.3.21"
+httparse = "=1.8.0"
+rayon-core = "=1.11.0"
+openssl-sys = "=0.9.103"
+litemap = "=0.7.3"
